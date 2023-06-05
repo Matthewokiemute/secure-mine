@@ -181,259 +181,259 @@ var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s,
 							<div class="transactions-history bg-box">
 
 								<div class="container bootstrap snippets bootdeys">
-<div class="row m-5">
+									<div class="row m-5">
 
-  <div class="col-sm-12">
-      
-      <ul class="nav nav-tabs" role="tablist">
-	<li class="nav-item">
-		<a class="nav-link active" style="font-size: 15px;" data-toggle="tab" href="#tabs-1" role="tab"><i class="fab fa-bitcoin"></i> Bitcoin withdrawals</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" style="font-size: 15px;" data-toggle="tab" href="#tabs-2" role="tab"><i class="fa fa-home"></i> Bank withdrawals</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" style="font-size: 15px;" data-toggle="tab" href="#tabs-3" role="tab"><i class="fa fa-id-card"></i> Scrill withdrawal</a>
-	</li>
-</ul><!-- Tab panes -->
-<div class="tab-content">
-	<div class="tab-pane active" id="tabs-1" role="tabpanel"><br><br>
-		
-		<div class="invoice-ribbon"><div class="ribbon-inner text-uppercase mb-4"><h5><b> Withdraw money from your profit!!! </b></h5></div></div>
-		    <div class="row h-100">
-		    	<div class="col-sm-12 my-auto"> 
-		    		<h5 style="" class="mb-4">Availiable Balance For Withdrawal: <b>  $0 </b> </h5>
-		    		<!--<h4 style="color:green;" class="mb-4">Available Balance : <b> $  </b> </h4>
-		    		<h4 style="" class="mb-4">Investor ID and Name: <b> ||  </b> </h4>-->
-                    		    		<form action="" method="POST">
-		    		    <input type="hidden" value="BTC" name="method"> 
-		    		  <div class="form-group">
-					    <label for="exampleInputPassword1"> Email </label>
-					    <input type="email" readonly class="form-control" required="required" name="email" id="exampleInputPassword1" value="johndoe@gmail.com" placeholder="Email Address*">
-					  </div>
-
-					   <div class="form-group">
-					    <label for="exampleInputPassword1"> Account Balance </label>
-					    <input type="text" class="form-control" required="required" readonly  name="balance" id="exampleInputPassword1" value="$ 0" placeholder="0.00">
-					  </div>
-
-
-					   <div class="form-group">
-					    <label for="exampleInputPassword1"> WIthdraw Amount </label>
-					    <input type="text" class="form-control" required="required" name="amount" id="exampleInputPassword1" value="" placeholder="Withdraw Amount">
-					    
-					  </div>
-
-
-					  
-					  
-					  <div class="form-group">
-					    <label for="exampleInputPassword1"> Bitcoin Address </label>
-					    <input type="text" class="form-control" required="required" name="wallet" id="exampleInputPassword1" value="" placeholder="">
-					  </div>
-
-
-                    <div class="form-group">
-					    <label for="exampleInputPassword1"> Password Cofirmation </label>
-					    <input type="password" class="form-control" required="required" name="password" id="exampleInputPassword1" value="" placeholder="Password">
-					  </div>
-
-					  
-
-					   <button type="submit" name="submitbtnwallet" class="btn btn-primary mb-4">Proceed</button><br><br><br><br>
-		    		</form>
-
-		    	</div>
-
-			
-
-				
-
-
-			</div>
-		
-	</div>
-	
-	
-	
-	<div class="tab-pane active" id="tabs-2" role="tabpanel"> <br><br>
-		<div class="invoice-ribbon"><div class="ribbon-inner text-uppercase mb-4"><h5><b> Withdraw money to Bank Account !!! </b></h5></div></div>
-		    <div class="row h-100">
-		    	<div class="col-sm-12 my-auto"> 
-		    		<h5 style="" class="mb-4">Availiable Balance For Withdrawal: <b>  $0 </b> </h5>
-		    		<!--<h4 style="color:green;" class="mb-4">Available Balance : <b> $  </b> </h4>
-		    		<h4 style="" class="mb-4">Investor ID and Name: <b> ||  </b> </h4>-->
-
-		    		<form action="process.html" method="POST">
-		    		    
-		    		    <div class="form-group">
-					    <label for="exampleInputPassword1"> Email </label>
-					    <input type="email" readonly class="form-control" required="required" name="email" id="exampleInputPassword1" value="johndoe@gmail.com" placeholder="Email Address*">
-					  </div>
-		    		    
-		    		  <input type="hidden" value="Bank Transfer" name="method"> 
-					  
-
-					   <div class="form-group">
-					    <label for="exampleInputPassword1"> Bank Name* </label>
-					    <input type="text" class="form-control" required="required" name="bank_name" id="exampleInputPassword1" value="" placeholder="Bank Name">
-					    <small id="emailHelp" class="form-text text-muted">Input Bank Name</small>
-					  </div>
-
-
-					   <div class="form-group">
-					    <label for="exampleInputPassword1"> Account Name </label>
-					    <input type="text" class="form-control" required="required" name="account_name" id="exampleInputPassword1" value="" placeholder="Account Name">
-					  </div>
-
-
-
-					   <div class="form-group">
-					    <label for="exampleInputPassword1"> Account No </label>
-					    <input type="text" class="form-control" required="required" name="account_number" id="exampleInputPassword1" value="" placeholder="Account No">
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="exampleInputPassword1"> Swiss Code </label>
-					    <input type="text" class="form-control" required="required" name="swift" id="exampleInputPassword1" value="" placeholder="Your bank Swiss code">
-					    <small id="emailHelp" class="form-text text-muted"> The Swift Code (Or "BIC Code") is an 8-11 alphanumeric code used to send money Via Wire Transfer. if you don't Know your Swiff code pls contact your bank.</small>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="exampleInputPassword1"> City </label>
-					    <input type="text" class="form-control" required="required" name="location" id="exampleInputPassword1" value="" placeholder="Precise Location of bank">
-					  </div>
-					  
-					   <div class="form-group">
-					    <label for="exampleInputPassword1"> Account Balance </label>
-					    <input type="text" readonly class="form-control" required="required" name="balance" id="exampleInputPassword1" value="0" placeholder="0.00">
-					  </div>
-					  
-					  
-					  <div class="form-group">
-					    <label for="exampleInputPassword1"> WIthdraw Amount </label>
-					    <input type="text" class="form-control" required="required" name="amount" id="exampleInputPassword1" value="" placeholder="Withdraw Amount">
-					    
-					  </div>
-					  
-					  
-					   <div class="form-group">
-					    <label for="exampleInputPassword1"> Password Cofirmation </label>
-					    <input type="password" class="form-control" required="required" name="password" id="exampleInputPassword1" value="" placeholder="Password Confirmation">
-					  </div>
-
-					   <button type="submit" name="submitbtnbank" class="btn btn-primary mb-4">Proceed</button><br><br><br><br>
-		    		</form>
-
-		    	</div>
-
-			
-
-				
-
-
-			</div>
-	</div>
-	<div class="tab-pane active" id="tabs-3" role="tabpanel">
-	    
-	    <br><br>
-		<div class="invoice-ribbon"><div class="ribbon-inner text-uppercase mb-4"><h5><b> Withdraw money from to your skrill account !!! </b></h5></div></div>
-		    <div class="row h-100">
-		    	<div class="col-sm-12 my-auto"> 
-		    		<h5 style="" class="mb-4">Availiable Balance For Withdrawal: <b>  $0 </b> </h5>
-		    		<!--<h4 style="color:green;" class="mb-4">Available Balance : <b> $  </b> </h4>
-		    		<h4 style="" class="mb-4">Investor ID and Name: <b> ||  </b> </h4>-->
-
-		    		<form action="process.html" method="POST">
-		    		  <div class="form-group">
-					    <label for="exampleInputPassword1"> Email </label>
-					    <input type="email" class="form-control" required="required" name="email" readonly id="exampleInputPassword1" value="johndoe@gmail.com" placeholder="Email Address*">
-					  </div>
-
-					   <div class="form-group">
-					    <label for="exampleInputPassword1"> Account Balance </label>
-					    <input type="text" class="form-control" required="required" name="ba"  readonly id="exampleInputPassword1" value="0" placeholder="0.00">
-					  </div>
-
-
-					   <div class="form-group">
-					    <label for="exampleInputPassword1"> WIthdraw Amount </label>
-					    <input type="text" class="form-control" required="required" name="amount" id="exampleInputPassword1" value="" placeholder="Withdraw Amount">
-					    
-					  </div>
-
-
-
-					   <div class="form-group">
-					    <label for="exampleInputPassword1"> Withdraw Type</label>
-					    <input type="text" class="form-control" required="required" name="method" readonly id="exampleInputPassword1" value="E-Wallet" placeholder="E-Wallet">
-					    
-					  </div>
-					  
-					  
-					  
-					  <div class="form-group">
-					    <label for="exampleInputPassword1"> Receiving Email Address </label>
-					    <input type="text" class="form-control" required="required" name="wallet" id="exampleInputPassword1" value="" placeholder="">
-					  </div>
-					  
-					  
-					  
-					  <div class="form-group">
-					    <label for="exampleInputPassword1"> Password Cofirmation </label>
-					    <input type="password" class="form-control" required="required" name="password" id="exampleInputPassword1" value="" placeholder="Password">
-					  </div>
-
-
-					  
-
-					   <button type="submit" name="submitbtnskrill" class="btn btn-primary mb-4">Proceed</button><br><br><br><br>
-		    		</form>
-
-		    	</div>
-
-			
-
-				
-
-
-			</div>
-	</div>
-</div>
-
-      
-	  	<div class="panel panel-default invoice" id="invoice">
-		  <div class="panel-body">
-			
-		
-		
-
-		  </div>
-		</div>
-	</div>
-</div>
-</div>
-
-
-									</div>
-					</div>
-
-
-			<script src="vendor/jquery.2.2.3.min.js"></script>
-			<!-- Popper js -->
-			<script src="vendor/popper.js/popper.min.js"></script>
-			<!-- Bootstrap JS -->
-			<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-			<!-- Country Select -->
-			<script src="vendor/country-select-js-master/build/js/countrySelect.min.js"></script>
-			<!-- Telephone Select -->
-			<script src="vendor/intl-tel/build/js/intlTelInput.min.js"></script>
-			<!-- Select js -->
-			<script src="vendor/select/jquery.selectric.min.js"></script>
-			<!-- Range Slider -->
-			<script src="vendor/ion.rangeSlider/ion.rangeSlider.js"></script>
-			<!-- Dashboard js -->
-			<script src="js/dashboard.js"></script>
-		</div> <!-- /.main-page-wrapper -->
-	</body>
-</html>
+										<div class="col-sm-12">
+											
+											<ul class="nav nav-tabs" role="tablist">
+										  <li class="nav-item">
+											  <a class="nav-link active" style="font-size: 15px;" data-toggle="tab" href="#tabs-1" role="tab"><i class="fab fa-bitcoin"></i> Bitcoin withdrawals</a>
+										  </li>
+										  <li class="nav-item">
+											  <a class="nav-link" style="font-size: 15px;" data-toggle="tab" href="#tabs-2" role="tab"><i class="fa fa-home"></i> Bank withdrawals</a>
+										  </li>
+										  <li class="nav-item">
+											  <a class="nav-link" style="font-size: 15px;" data-toggle="tab" href="#tabs-3" role="tab"><i class="fa fa-id-card"></i> Scrill withdrawal</a>
+										  </li>
+									  </ul><!-- Tab panes -->
+									  <div class="tab-content">
+										  <div class="tab-pane active" id="tabs-1" role="tabpanel"><br><br>
+											  
+											  <div class="invoice-ribbon"><div class="ribbon-inner text-uppercase mb-4"><h5><b> Withdraw money from your profit!!! </b></h5></div></div>
+												  <div class="row h-100">
+													  <div class="col-sm-12 my-auto"> 
+														  <h5 style="" class="mb-4">Availiable Balance For Withdrawal: <b>  $0 </b> </h5>
+														  <!--<h4 style="color:green;" class="mb-4">Available Balance : <b> $  </b> </h4>
+														  <h4 style="" class="mb-4">Investor ID and Name: <b> ||  </b> </h4>-->
+																			  <form action="" method="POST">
+															  <input type="hidden" value="BTC" name="method"> 
+															<div class="form-group">
+															  <label for="exampleInputPassword1"> Email </label>
+															  <input type="email" readonly class="form-control" required="required" name="email" id="exampleInputPassword1" value="sgodstime988@gmail.com" placeholder="Email Address*">
+															</div>
+									  
+															 <div class="form-group">
+															  <label for="exampleInputPassword1"> Account Balance </label>
+															  <input type="text" class="form-control" required="required" readonly  name="balance" id="exampleInputPassword1" value="$ 0" placeholder="0.00">
+															</div>
+									  
+									  
+															 <div class="form-group">
+															  <label for="exampleInputPassword1"> WIthdraw Amount </label>
+															  <input type="text" class="form-control" required="required" name="amount" id="exampleInputPassword1" value="" placeholder="Withdraw Amount">
+															  
+															</div>
+									  
+									  
+															
+															
+															<div class="form-group">
+															  <label for="exampleInputPassword1"> Bitcoin Address </label>
+															  <input type="text" class="form-control" required="required" name="wallet" id="exampleInputPassword1" value="" placeholder="">
+															</div>
+									  
+									  
+														  <div class="form-group">
+															  <label for="exampleInputPassword1"> Password Cofirmation </label>
+															  <input type="password" class="form-control" required="required" name="password" id="exampleInputPassword1" value="" placeholder="Password">
+															</div>
+									  
+															
+									  
+															 <button type="submit" name="submitbtnwallet" class="btn btn-primary mb-4">Proceed</button><br><br><br><br>
+														  </form>
+									  
+													  </div>
+									  
+												  
+									  
+													  
+									  
+									  
+												  </div>
+											  
+										  </div>
+										  
+										  
+										  
+										  <div class="tab-pane" id="tabs-2" role="tabpanel"> <br><br>
+											  <div class="invoice-ribbon"><div class="ribbon-inner text-uppercase mb-4"><h5><b> Withdraw money to Bank Account !!! </b></h5></div></div>
+												  <div class="row h-100">
+													  <div class="col-sm-12 my-auto"> 
+														  <h5 style="" class="mb-4">Availiable Balance For Withdrawal: <b>  $0 </b> </h5>
+														  <!--<h4 style="color:green;" class="mb-4">Available Balance : <b> $  </b> </h4>
+														  <h4 style="" class="mb-4">Investor ID and Name: <b> ||  </b> </h4>-->
+									  
+														  <form action="process.php" method="POST">
+															  
+															  <div class="form-group">
+															  <label for="exampleInputPassword1"> Email </label>
+															  <input type="email" readonly class="form-control" required="required" name="email" id="exampleInputPassword1" value="sgodstime988@gmail.com" placeholder="Email Address*">
+															</div>
+															  
+															<input type="hidden" value="Bank Transfer" name="method"> 
+															
+									  
+															 <div class="form-group">
+															  <label for="exampleInputPassword1"> Bank Name* </label>
+															  <input type="text" class="form-control" required="required" name="bank_name" id="exampleInputPassword1" value="" placeholder="Bank Name">
+															  <small id="emailHelp" class="form-text text-muted">Input Bank Name</small>
+															</div>
+									  
+									  
+															 <div class="form-group">
+															  <label for="exampleInputPassword1"> Account Name </label>
+															  <input type="text" class="form-control" required="required" name="account_name" id="exampleInputPassword1" value="" placeholder="Account Name">
+															</div>
+									  
+									  
+									  
+															 <div class="form-group">
+															  <label for="exampleInputPassword1"> Account No </label>
+															  <input type="text" class="form-control" required="required" name="account_number" id="exampleInputPassword1" value="" placeholder="Account No">
+															</div>
+															
+															<div class="form-group">
+															  <label for="exampleInputPassword1"> Swiss Code </label>
+															  <input type="text" class="form-control" required="required" name="swift" id="exampleInputPassword1" value="" placeholder="Your bank Swiss code">
+															  <small id="emailHelp" class="form-text text-muted"> The Swift Code (Or "BIC Code") is an 8-11 alphanumeric code used to send money Via Wire Transfer. if you don't Know your Swiff code pls contact your bank.</small>
+															</div>
+															
+															<div class="form-group">
+															  <label for="exampleInputPassword1"> City </label>
+															  <input type="text" class="form-control" required="required" name="location" id="exampleInputPassword1" value="" placeholder="Precise Location of bank">
+															</div>
+															
+															 <div class="form-group">
+															  <label for="exampleInputPassword1"> Account Balance </label>
+															  <input type="text" readonly class="form-control" required="required" name="balance" id="exampleInputPassword1" value="0" placeholder="0.00">
+															</div>
+															
+															
+															<div class="form-group">
+															  <label for="exampleInputPassword1"> WIthdraw Amount </label>
+															  <input type="text" class="form-control" required="required" name="amount" id="exampleInputPassword1" value="" placeholder="Withdraw Amount">
+															  
+															</div>
+															
+															
+															 <div class="form-group">
+															  <label for="exampleInputPassword1"> Password Cofirmation </label>
+															  <input type="password" class="form-control" required="required" name="password" id="exampleInputPassword1" value="" placeholder="Password Confirmation">
+															</div>
+									  
+															 <button type="submit" name="submitbtnbank" class="btn btn-primary mb-4">Proceed</button><br><br><br><br>
+														  </form>
+									  
+													  </div>
+									  
+												  
+									  
+													  
+									  
+									  
+												  </div>
+										  </div>
+										  <div class="tab-pane" id="tabs-3" role="tabpanel">
+											  
+											  <br><br>
+											  <div class="invoice-ribbon"><div class="ribbon-inner text-uppercase mb-4"><h5><b> Withdraw money from to your skrill account !!! </b></h5></div></div>
+												  <div class="row h-100">
+													  <div class="col-sm-12 my-auto"> 
+														  <h5 style="" class="mb-4">Availiable Balance For Withdrawal: <b>  $0 </b> </h5>
+														  <!--<h4 style="color:green;" class="mb-4">Available Balance : <b> $  </b> </h4>
+														  <h4 style="" class="mb-4">Investor ID and Name: <b> ||  </b> </h4>-->
+									  
+														  <form action="process.php" method="POST">
+															<div class="form-group">
+															  <label for="exampleInputPassword1"> Email </label>
+															  <input type="email" class="form-control" required="required" name="email" readonly id="exampleInputPassword1" value="sgodstime988@gmail.com" placeholder="Email Address*">
+															</div>
+									  
+															 <div class="form-group">
+															  <label for="exampleInputPassword1"> Account Balance </label>
+															  <input type="text" class="form-control" required="required" name="ba"  readonly id="exampleInputPassword1" value="0" placeholder="0.00">
+															</div>
+									  
+									  
+															 <div class="form-group">
+															  <label for="exampleInputPassword1"> WIthdraw Amount </label>
+															  <input type="text" class="form-control" required="required" name="amount" id="exampleInputPassword1" value="" placeholder="Withdraw Amount">
+															  
+															</div>
+									  
+									  
+									  
+															 <div class="form-group">
+															  <label for="exampleInputPassword1"> Withdraw Type</label>
+															  <input type="text" class="form-control" required="required" name="method" readonly id="exampleInputPassword1" value="E-Wallet" placeholder="E-Wallet">
+															  
+															</div>
+															
+															
+															
+															<div class="form-group">
+															  <label for="exampleInputPassword1"> Receiving Email Address </label>
+															  <input type="text" class="form-control" required="required" name="wallet" id="exampleInputPassword1" value="" placeholder="">
+															</div>
+															
+															
+															
+															<div class="form-group">
+															  <label for="exampleInputPassword1"> Password Cofirmation </label>
+															  <input type="password" class="form-control" required="required" name="password" id="exampleInputPassword1" value="" placeholder="Password">
+															</div>
+									  
+									  
+															
+									  
+															 <button type="submit" name="submitbtnskrill" class="btn btn-primary mb-4">Proceed</button><br><br><br><br>
+														  </form>
+									  
+													  </div>
+									  
+												  
+									  
+													  
+									  
+									  
+												  </div>
+										  </div>
+									  </div>
+									  
+											
+												<div class="panel panel-default invoice" id="invoice">
+												<div class="panel-body">
+												  
+											  
+											  
+									  
+												</div>
+											  </div>
+										  </div>
+									  </div>
+									  </div>
+									  
+									  
+																		  </div>
+														  </div>
+									  
+									  
+												  <script src="vendor/jquery.2.2.3.min.js"></script>
+												  <!-- Popper js -->
+												  <script src="vendor/popper.js/popper.min.js"></script>
+												  <!-- Bootstrap JS -->
+												  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+												  <!-- Country Select -->
+												  <script src="vendor/country-select-js-master/build/js/countrySelect.min.js"></script>
+												  <!-- Telephone Select -->
+												  <script src="vendor/intl-tel/build/js/intlTelInput.min.js"></script>
+												  <!-- Select js -->
+												  <script src="vendor/select/jquery.selectric.min.js"></script>
+												  <!-- Range Slider -->
+												  <script src="vendor/ion.rangeSlider/ion.rangeSlider.js"></script>
+												  <!-- Dashboard js -->
+												  <script src="js/dashboard.js"></script>
+											  </div> <!-- /.main-page-wrapper -->
+										  </body>
+									  </html>
