@@ -719,7 +719,7 @@ body .theme-button:hover span {opacity: 1;}
   background: linear-gradient(120deg, #68e4f1 0%, #66a6ff 100%);
 }
 #investment-modal .bottom-button-group .delete-action {
-  color: #f14c5d;
+  color: #e7b023;
   height: 50px;
   font-size: 1.333em;
   background: transparent;
@@ -1122,7 +1122,7 @@ body .theme-button:hover span {opacity: 1;}
   left:0;
 }
 .payout-single-table table .payment-status.paid:before {background: #4a9aef;}
-.payout-single-table table .payment-status.open:before {background: #f14c5d;}
+.payout-single-table table .payment-status.open:before {background: #e7b023;}
 .payout-single-table table .value.payout-amount {color: #4a9aef;}
 .payout-single-table table td {
   background: #fff;
@@ -1243,7 +1243,7 @@ body .theme-button:hover span {opacity: 1;}
 .performance-monthly-table-sheet tbody .profit-return,.fund-information-table table .text.profit-balance,
 .full-performance-history .weekly-performance-data .week-data .profit-return {color: #4a9aef;}
 .performance-monthly-table-sheet tbody .loss-return,.fund-information-table table .text.loss-balance,
-.full-performance-history .weekly-performance-data .week-data .loss-return {color: #f14c5d;}
+.full-performance-history .weekly-performance-data .week-data .loss-return {color: #e7b023;}
 .performance-monthly-table-sheet {position: relative;}
 .performance-monthly-table-sheet tbody tr:last-child th {border: none;}
 .performance-monthly-table-sheet tbody .total-return {
@@ -1475,7 +1475,7 @@ body .theme-button:hover span {opacity: 1;}
   top:50%;
   transform:translateY(-50%);
 }
-.settings-tab-content .block-title .disabled {background: #f14c5d;}
+.settings-tab-content .block-title .disabled {background: #e7b023;}
 .settings-tab-content .block-title .enabled {background: #4a9aef;}
 
 .settings-tab-content .single-checkbox label {
@@ -1531,7 +1531,7 @@ body .theme-button:hover span {opacity: 1;}
   transform: translateY(-50%);
 }
 .settings-tab-content .user-phone-list .verified-success .verify-status {background: #4a9aef;cursor: default;}
-.settings-tab-content .user-phone-list .verified-pending .verify-status {background: #f14c5d;}
+.settings-tab-content .user-phone-list .verified-pending .verify-status {background: #e7b023;}
 .settings-tab-content .user-phone-list .single-number-input .number-delete-button {
   width: 80px;
   height: 36px;
@@ -1548,7 +1548,7 @@ body .theme-button:hover span {opacity: 1;}
 }
 .settings-tab-content .user-phone-list {padding-bottom: 1px;}
 .settings-tab-content .sub-text {font-size: 1.3333em;padding: 0 0 28px 0;}
-.settings-tab-content .sub-text .warning-text {color: #f14c5d;}
+.settings-tab-content .sub-text .warning-text {color: #e7b023;}
 .settings-tab-content .close-acount-button {
   width: 160px;
   line-height: 48px;
@@ -1729,7 +1729,7 @@ body .theme-button:hover span {opacity: 1;}
   float: right;
   margin-top: 5px;
 }
-.cryptocurrency-prices .currnecy-prices-list .value .current-rate.down {color: #f14c5d;}
+.cryptocurrency-prices .currnecy-prices-list .value .current-rate.down {color: #e7b023;}
 .cryptocurrency-prices .currnecy-prices-list .value .current-rate.up {color: #4a9aef;}
 
 .cryptocurrency-prices .currnecy-prices-list .value .current-rate img {display: inline-block;vertical-align: 0px;}
@@ -2413,7 +2413,7 @@ body .theme-button:hover span {opacity: 1;}
   border: 1px solid #edeef1;
   border-radius: 5px;
   background: #fff;
-  color: #f14c5d;
+  color: #e7b023;
   font-size: 1.166666em;
 }
 #edit-campaign form {padding: 15px 50px 45px;}
@@ -2558,7 +2558,7 @@ body .theme-button:hover span {opacity: 1;}
   left: 0;
   top:7px;
 }
-.affiliates-page .transactions-history .transactions-list .single-list td:nth-child(2) .heading.pending:before {background: #f14c5d;}
+.affiliates-page .transactions-history .transactions-list .single-list td:nth-child(2) .heading.pending:before {background: #e7b023;}
 .affiliates-page .transactions-history .transactions-list .single-list td:nth-child(2) .heading.complete:before {background: #4a9aef;}
 /*________________________ Payout Modal ______________________*/
 #payouts-popup .modal-wrapper {
