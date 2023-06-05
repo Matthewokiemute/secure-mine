@@ -73,7 +73,7 @@ var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s,
 					<div class="container">
 						<div class="wrapper clearfix">
 							<!-- Toggle Menu Button -->
-							<button class="toggle-show-menu-button mt-3">
+							<button onclick="openNav()" class="toggle-show-menu-button mt-3 openbtn">
 								<span></span>
 								<span></span>
 								<span></span>
@@ -156,8 +156,8 @@ var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s,
 					<div id="dashboard-main-body" class="clearfix">
 
 						<!-- ***************** Sidebar **************** -->
-						<div class="dashboard-sidebar-navigation sodebar">
-							<button class="close-aside-menu tran3s round-border">
+						<div class="dashboard-sidebar-navigation show-menu">
+							<button class="close-aside-menu tran3s round-border "  id="mySidePanel">
 								<img src="images/close.png" alt="">
 							</button>
 							<ul class="navigation-link">
@@ -709,12 +709,17 @@ var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s,
 
 			<!-- New Investment  Modal -->
 			<!-- /#new-investment-modal -->
-
+			<script>
+				const sideBar = document.getElementById('mySidePanel');
+				// function openNav() {
+				// 	sideBar.addClass = 
+				// }
+			</script>
 			<!-- Optional JavaScript _____________________________  -->
 
 	    	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	    	<!-- jQuery -->
-			<script src="vendor/jquery.2.2.3.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 			<!-- Popper js -->
 			<script src="vendor/popper.js/popper.min.js"></script>
 			<!-- Bootstrap JS -->
